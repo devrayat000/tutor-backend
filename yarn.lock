@@ -13628,18 +13628,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "strapi@workspace:."
-  dependencies:
-    "@strapi/plugin-i18n": ^4.5.1
-    "@strapi/plugin-users-permissions": ^4.5.1
-    "@strapi/provider-upload-cloudinary": ^4.5.1
-    "@strapi/strapi": ^4.5.1
-    pg: ^8.8.0
-  languageName: unknown
-  linkType: soft
-
 "stream-browserify@npm:^3.0.0":
   version: 3.0.0
   resolution: "stream-browserify@npm:3.0.0"
@@ -14215,6 +14203,18 @@ __metadata:
   checksum: 05f6510358f8afc62a057b8b692f05d70c1782b70db86d6a1e0d5e28a32389e52fa6e7707b6c5ecccacc031462e4bc35af85ecfe4bbc341767917b7cf6965711
   languageName: node
   linkType: hard
+
+"tutorbd-backend@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "tutorbd-backend@workspace:."
+  dependencies:
+    "@strapi/plugin-i18n": ^4.5.1
+    "@strapi/plugin-users-permissions": ^4.5.1
+    "@strapi/provider-upload-cloudinary": ^4.5.1
+    "@strapi/strapi": ^4.5.1
+    pg: ^8.8.0
+  languageName: unknown
+  linkType: soft
 
 "tweetnacl@npm:^0.14.3, tweetnacl@npm:~0.14.0":
   version: 0.14.5
