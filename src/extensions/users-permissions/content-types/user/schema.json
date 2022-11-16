@@ -119,6 +119,10 @@
     "location": {
       "type": "json",
       "required": true
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
