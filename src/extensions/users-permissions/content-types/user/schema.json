@@ -67,10 +67,6 @@
       "type": "text",
       "required": true
     },
-    "subjects": {
-      "type": "json",
-      "required": true
-    },
     "institute": {
       "type": "string",
       "required": true
@@ -93,10 +89,6 @@
       "type": "string",
       "required": true
     },
-    "method": {
-      "type": "string",
-      "required": true
-    },
     "phone": {
       "type": "string",
       "required": true
@@ -116,13 +108,30 @@
       "relation": "oneToMany",
       "target": "api::feedback.feedback"
     },
-    "location": {
-      "type": "json",
-      "required": true
-    },
     "enabled": {
       "type": "boolean",
       "default": false
+    },
+    "subjects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.single",
+      "required": true
+    },
+    "locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.single",
+      "required": true
+    },
+    "method": {
+      "type": "enumeration",
+      "enum": [
+        "offline",
+        "online"
+      ],
+      "default": "offline",
+      "required": true
     }
   }
 }

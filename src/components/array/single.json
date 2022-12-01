@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_array_singles",
+  "info": {
+    "displayName": "Single",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "entry": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
