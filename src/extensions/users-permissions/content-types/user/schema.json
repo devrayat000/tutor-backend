@@ -116,13 +116,13 @@
       "type": "component",
       "repeatable": true,
       "component": "array.single",
-      "required": true
+      "required": false
     },
     "locations": {
       "type": "component",
       "repeatable": true,
       "component": "array.single",
-      "required": true
+      "required": false
     },
     "method": {
       "type": "enumeration",
@@ -132,6 +132,10 @@
       ],
       "default": "offline",
       "required": true
+    },
+    "uid": {
+      "type": "uid",
+      "targetField": "username"
     }
   }
 }

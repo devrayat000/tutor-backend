@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "subjects",
+  "info": {
+    "singularName": "subject",
+    "pluralName": "subjects",
+    "displayName": "Subject"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subjects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "array.single"
+    }
+  }
+}
