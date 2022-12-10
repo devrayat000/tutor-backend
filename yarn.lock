@@ -13958,6 +13958,7 @@ __metadata:
     "@strapi/plugin-i18n": ^4.5.3
     "@strapi/plugin-users-permissions": ^4.5.3
     "@strapi/strapi": ^4.5.3
+    lodash: ^4.17.21
     pg: ^8.8.0
   languageName: unknown
   linkType: soft

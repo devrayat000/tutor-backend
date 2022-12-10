@@ -16,7 +16,6 @@
     "username": {
       "type": "string",
       "minLength": 3,
-      "unique": true,
       "configurable": false,
       "required": true
     },
@@ -91,7 +90,8 @@
     },
     "phone": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "facebookUrl": {
       "type": "string",
@@ -101,16 +101,14 @@
     "requests": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::request.request"
+      "target": "api::request.request",
+      "mappedBy": "user"
     },
     "feedbacks": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::feedback.feedback"
-    },
-    "enabled": {
-      "type": "boolean",
-      "default": false
+      "target": "api::feedback.feedback",
+      "mappedBy": "user"
     },
     "subjects": {
       "type": "component",

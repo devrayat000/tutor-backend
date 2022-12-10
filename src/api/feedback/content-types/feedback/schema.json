@@ -24,6 +24,12 @@
       "required": true,
       "min": 0,
       "max": 10
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "feedbacks"
     }
   }
 }
